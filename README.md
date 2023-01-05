@@ -15,10 +15,8 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Composition API
+![Composition API](./public/composition.png "Composition API")
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Lifecycle Hooks
+![Lifecycle Hooks](./public/lifeCycle.png "Lifecycle Hooks")

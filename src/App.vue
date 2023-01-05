@@ -1,17 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <Fundamentals /> -->
+  <!-- <Components /> -->
+  <!-- <Http /> -->
+  <Composition />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import Components from './components/Components.vue';
+  import Fundamentals from './components/Fundamentals.vue';
+  import Http from './components/Http.vue';
+  import Composition from './components/Composition.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  /* eslint-disable vue/no-unused-components */
+  export default {
+    name: 'App',
+    components: {
+      Components,
+      Fundamentals,
+      Http,
+      Composition
+    }
   }
-}
 </script>
 
 <style>
@@ -22,5 +31,17 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.promoted {
+  text-decoration: underline;
+}
+
+.sold-out {
+  color: green;
+}
+
+.new {
+  color: red;
 }
 </style>
